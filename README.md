@@ -1,14 +1,14 @@
 # usmc_calculator
 <H3>5/17/2021</h3>
 <p>
-•	Wrote code to receive input for age, gender, high altitude, and pullups.
-•	Created table to lookup pullups for males.
-•	Program provides output of pullup score for males.
+<li>	Wrote code to receive input for age, gender, high altitude, and pullups.
+<li>  Created table to lookup pullups for males.
+<li>  Program provides output of pullup score for males.
 
 Way ahead
-•	Test for bugs
-•	Find solution if input is out of bounds on table. 
-•	Begin coding for male crunches.
+<li>  Test for bugs
+<li>  Find solution if input is out of bounds on table. 
+<li>  Begin coding for male crunches.
 </p>
 
 <H3>5/15/2021</h3>

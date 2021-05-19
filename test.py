@@ -1,27 +1,44 @@
-import os
+from numpy import round_
 import pandas as pd
 
-reps = str(95)
-years = str(17)
 
-#read and setup male pullup CSV files
-m_pullup_df=pd.read_csv("m_crunch.csv",index_col=0)
-m_pull_pts = m_pullup_df.loc[[reps],[years]].values[0]
+age=str(35)
 
 
-print(int(m_pull_pts))
+#crunch = int(input("How many crunches?:  "))
+#if type(crunch) == int:
+#    print("You performed {} crunches".format(crunch))
+#else:
+#    print("That's not a valid response.")
+#
+#crunch=str(crunch)
+    
 
-#Recieve total crunches from user
-crunch = int(input("How many crunches?:  "))
-if type(crunch) == int:
-    print("You performed {} crunches".format(crunch))
+
+run = input("What was your runtime?:  ")
+run = [character for character in run if character.isalnum()]
+run = int("".join(run))
+
+if(run % 10 !=0):
+   run = (run - run % 10) + 10
+
+if run 
+
+print(run)
+
+
+
+if type(run) == int:
+    print("You ran the 3 mile: {} ".format(run))
 else:
     print("That's not a valid response.")
 
-crunch=str(crunch)
+run=str(run)
 
-#read and setup male crunch CSV files
-m_crunch_df=pd.read_csv("m_crunch.csv",index_col=0)
-m_crunch_pts = m_crunch_df.loc[[crunch],[years]].values[0]
 
-print(int(m_crunch_pts))
+#read and setup <4500ft runtime CSV files
+m_run_no_alt_df=pd.read_csv("lookup_records\csv\m_run_no_alt.csv",index_col=0)
+m_run_no_alt_pts = m_run_no_alt_df.loc[[run],[age]].values[0]
+
+print(int(m_run_no_alt_pts))
+

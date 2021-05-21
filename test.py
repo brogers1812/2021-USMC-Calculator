@@ -1,16 +1,12 @@
-def inputPull(message):
+totalscore = int(input("Enter score"))
 
-    while True:
-        try:
-            userInput = int(input(message))
-        except ValueError:
-            print("Not a numerical value! Try again.")
-            continue
-        else:
-            return userInput
-            break
+if totalscore >= 235:
+    pftclass = "First Class"
+elif totalscore <= 235 and totalscore >= 200:
+    pftclass = "Second Class"
+elif totalscore <=200 and totalscore >= 120:
+    pftclass = "Third Class"
+else:
+    pftclass = "Failed"
 
-pullup = inputPull("How many pulls did you perform?")
-
-
-print(pullup)
+print(pftclass)

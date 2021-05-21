@@ -1,24 +1,37 @@
 # usmc_calculator
+<h4>5/20/2021</h4>
+<p>
+    <li>  Completed all csv tables except 5000 meter row. 
+    <li>  Push ups and pullup scores account for either one and male or female choice.
+    <li>  Quite a few more updates since May 18th.
+</p>
+<h5></h5>
+<p>
+    <li>  Create the 5000 meter row scoresheets
+    <li>  Update code to reflect male or female input for scoring crunches
+    <li>  Begin research in accounting for runtime to next highest minute
+</p>
 <h4>5/18/2021</h4>
 <p>
     <li> Removed functions to shorten code and remove reduncacy.
     <li> Created table to lookup male run times without altitude consideration. 
-    <li> Inputted user input for run times. Round.up to the nearest tenth
+    <li> Inputted user input for run times. Round.up to the nearest tenth.
+</p>
 <h5> Way Ahead</H5>
+<p>
     <li> Round times (26:52) to 27:00 and not 26:60. 
     <li> Compute a total score for a male performing pullups, crunches, and a run time. 
-    <li> Consider the code to implement female scores (if/else)
-        
+    <li> Consider the code to implement female scores (if/else).
+</p>      
 <H4>5/17/2021</h4>
 <p>
-    <li>	Wrote code to receive input for age, gender, high altitude, and pullups.
+    <li>  Wrote code to receive input for age, gender, high altitude, and pullups.
     <li>  Created table to lookup pullups for males.
     <li>  Program provides output of pullup score for males.
 </p>
-
 <h5>Way ahead</h5>
 <p>
-    <li>  Test for bugs
+    <li>  Test for bugs.
     <li>  Find solution if input is out of bounds on table. 
     <li>  Begin coding for male crunches.
 </p>

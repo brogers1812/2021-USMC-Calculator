@@ -1,16 +1,16 @@
 # usmc_calculator
 <h4>5/23/2021</h4>
-<p style="margin-left:10%"; margin-right:10%;">So I made a pretty big oversight on the project. In January 2021, the Marine Corps released a new publication covering changes in the PFT. MCO 6100.13A with CH-3 (located in the resources folder) outlines the addition of performing a plank rather than crunches. While I didn't catch it while creating this program, I did capture this change in the website version. I'll make the appropriate changes but my priority has focused on taking this code and creating a web app. You can find the web app repositiory at <a href="https://github.com/brogers1812/2021-USMC-Calculator-Website">2021-USMC-Calculator-Website</a>.</p> 
+<p style="margin-left:10%"; margin-right:10%;">So I made a pretty big oversight on the project. In January 2021, the Marine Corps released a new publication covering changes in the PFT. MCO 6100.13A with CH-3 (located in the resources folder) outlines the addition of performing a plank rather than crunches. While I didn't catch it while creating this program, I did capture this change in the website version. I'll make the appropriate changes but my priority has focused on taking this code and creating a web app. You can find the web app repository at <a href="https://github.com/brogers1812/2021-USMC-Calculator-Website">2021-USMC-Calculator-Website</a>.</p> 
     <li>  Found a solution for rounding the run times.</li>
     <li>  Beta version of the website is stabilized on local server.</li>
 <h5>Way Ahead</h5>
     <li>  Implement the plank event into the program</li>
-    <li>  Review code for redudancy</li>
+    <li>  Review code for redundancy</li>
     <li>  Increase compatibility of user interface</li>
 <h4>5/21/2021</h4>
 <p>
     <li>  Completed all CSV lookup tables.</li>
-    <li>  Added quality assurance folder to record data input/output accuracy (continous testing)</li>
+    <li>  Added quality assurance folder to record data input/output accuracy (continuous testing)</li>
     <li>  Program is completed.</li>
 </p>
 <h5>Way Ahead</h5>
@@ -33,9 +33,9 @@
 </p>
 <h4>5/18/2021</h4>
 <p>
-    <li> Removed functions to shorten code and remove reduncacy.</li>
+    <li> Removed functions to shorten code and remove redundancy.</li>
     <li> Created table to lookup male run times without altitude consideration. </li>
-    <li> Inputted user input for run times. Round.up to the nearest tenth.</li>
+    <li> Inputted user input for run times. Round up to the nearest tenth.</li>
 </p>
 <h5>Way Ahead</h5>
 <p>

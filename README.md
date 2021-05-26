@@ -62,5 +62,5 @@
 <p>This program will be designed to calculate PFT & CFT scores based on users input. It will be divided into categories such as Male/Female, Age, Altitude, Pullups, Crunches, Planks, and etc...</p>
 
 ![image](https://raw.githubusercontent.com/brogers1812/2021-USMC-Calculator/main/information/Slide1.JPG)
-![image](https://raw.githubusercontent.com/brogers1812/2021-USMC-Calculator/main/information/Slide2.JPG)
+![image](https://github.com/brogers1812/2021-USMC-Calculator/blob/df7807724f052832d9f16217bfcef38130a87da5/information/Slide2.JPG)
 

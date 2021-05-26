@@ -1,4 +1,6 @@
 # usmc_calculator
+<h4>5/25/2021</h4>
+<p style="margin-left:10%"; margin-right:10%;">I'm officially ending my support for this project. I've moved this project to a new repositiory which has more features and web compability. Please visit my new USMC Calculator repository at <a href="https://github.com/brogers1812/2021-USMC-Calculator-Website">https://github.com/brogers1812/2021-USMC-Calculator-Website</a>.<br><br>Thank you.
 <h4>5/23/2021</h4>
 <p style="margin-left:10%"; margin-right:10%;">So I made a pretty big oversight on the project. In January 2021, the Marine Corps released a new publication covering changes in the PFT. MCO 6100.13A with CH-3 (located in the resources folder) outlines the addition of performing a plank rather than crunches. While I didn't catch it while creating this program, I did capture this change in the website version. I'll make the appropriate changes but my priority has focused on taking this code and creating a web app. You can find the web app repository at <a href="https://github.com/brogers1812/2021-USMC-Calculator-Website">2021-USMC-Calculator-Website</a>.</p> 
     <li>  Found a solution for rounding the run times.</li>
